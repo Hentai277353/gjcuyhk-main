@@ -1,0 +1,163 @@
+.header_nav_tre{
+    margin-top: 30px;
+}
+
+.nav_tree{
+    display: flex;
+}
+
+.nav_tree a{
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    text-decoration: none;
+}
+
+.nav_tree li{
+    margin-right: 20px;
+}
+
+.nav_tree li:last-child a{
+    color: #000;
+}
+
+.contact_block{
+
+}
+
+.form_input{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F2F2F;
+}
+
+.contact_form{
+
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #323232;
+}
+
+.form_btn{
+
+    background: #DD4053;
+    border-radius: 2px;
+
+}
+
+.team_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+}
+
+.team_header h2{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.team__list{
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    display: flex;
+}
+
+.tean__list li{
+    opacity: 0.35;
+    margin-left: 50px;
+}
+
+.team__list li:firste-child{
+    opacity: 1;
+    margin-left: 0;
+}
+
+.team__card__zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team__card{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px solid #D0D0D0;
+    margin-top: 35px;
+    width: 550px;
+}
+
+.card__text{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 156px;
+}
+
+.card__header h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 90%;
+    }
+
+    header{
+        display: none;
+    }
+
+    .container__form {
+        width: 380px;
+    }
+
+    .team__card{
+        width: 100%;
+        justify-content: center;
+    }
+       
+    .team__list li{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact__into{
+        flex-direction: column;
+    }
+
+    .contact__form{
+        margin-top: 20px;
+    }
+
+    .team__header{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .team__list{
+        flex-direction: column;
+    }
+
+    .team__list li{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
